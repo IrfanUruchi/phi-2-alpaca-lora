@@ -14,7 +14,7 @@ Fine‑tuning was performed with **LoRA (Low-Rank Adaptation)** on:
 - [yahma/alpaca-cleaned](https://huggingface.co/datasets/yahma/alpaca-cleaned) (subset of ~5k samples)  
 - Custom instruction datasets (collected separately)  
 
-After training, all LoRA adapters were merged with the base weights. The final model can be loaded directly with Hugging Face Transformers.
+After training, all LoRA adapters were merged with the base weights. The final model can be loaded directly with Hugging Face Transformers (here only the config files are avaiable).
 
 ---
 
